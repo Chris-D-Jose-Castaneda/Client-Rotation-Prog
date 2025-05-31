@@ -4,6 +4,8 @@ Welcome to the Consultant Rotation and Client Assignment Automation Repository! 
 
 This repository streamlines the weekly client assignments among consultants, ensuring fair and balanced workload distribution through an automated rotation system. It involves an Excel data source, Python scripts, and a tracking mechanism to maintain state between runs.
 
+I used this when I when automating the process of updating weekly clients with the team I led. I changed the names to "Client {number}" for privacy reasons instead of names and initialized my team consultants. Weekly it would run and change. It's very possible to randomly distribute as well.
+
 ### 📌 Project Overview
 
 This system automates client assignment to consultants each week, rotating the assignments to evenly distribute workload. Perfect for managing consulting engagements, teaching assistant duties, or any role where consistent rotation is required.
@@ -36,7 +38,7 @@ Usage: Central script to perform the rotation logic and generate assignments eac
 
 4. 📊 Weekly_Consultant_Client_Assignments_.xlsx
 
-Purpose: Outputs the weekly distribution of clients to consultants.
+Purpose: Outputs the weekly distribution of clients to consultants after running jupyter notebook.
 
 Format: Formatted Excel spreadsheet with clear and readable assignments.
 
