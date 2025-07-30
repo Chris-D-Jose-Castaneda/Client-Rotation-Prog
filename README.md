@@ -10,7 +10,7 @@ This system automates client assignment to consultants each week, rotating the a
 
 ### 📁 File Descriptions
 
-1. Client_List.xlsx
+**1. Client_List.xlsx**
 
 Purpose: Contains the full list of clients who need to be assigned to consultants each week.
 
@@ -18,7 +18,7 @@ Format: Excel spreadsheet with client names listed in the first column.
 
 Usage: Primary input file for generating weekly assignments.
 
-2. rotation_state.txt
+**2. rotation_state.txt**
 
 Purpose: Stores the current rotation state (index) of consultants.
 
@@ -26,7 +26,7 @@ Format: Plain text file containing a single integer representing the rotation po
 
 Usage: Ensures continuity and fairness by tracking the consultant who should receive the next set of clients.
 
-3. Python Automation Script (.ipynb)
+**3. Python Automation Script (.ipynb)**
 
 Purpose: Reads the client list, manages rotation state, assigns clients evenly, and outputs the weekly assignments.
 
@@ -34,7 +34,7 @@ Format: Jupyter Notebook (.ipynb) containing Python scripts for automation.
 
 Usage: Central script to perform the rotation logic and generate assignments each week.
 
-4. Weekly_Consultant_Client_Assignments_.xlsx
+**4. Weekly_Consultant_Client_Assignments_.xlsx**
 
 Purpose: Outputs the weekly distribution of clients to consultants after running jupyter notebook.
 
